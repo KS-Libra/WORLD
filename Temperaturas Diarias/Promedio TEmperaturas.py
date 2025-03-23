@@ -27,7 +27,6 @@ def calculate_average_temperature(city_data):
         average_temperatures[city_name] = average_temp
     
     return average_temperatures
-
 # Datos de ejemplo
 city_data = [
     # Ciudad 1
@@ -38,6 +37,8 @@ city_data = [
         [21, 23, 25, 22, 24, 26, 23],
         # Semana 3
         [22, 24, 26, 23, 25, 27, 24]
+           # Semana 4
+        [23, 25, 27, 24, 26, 27, 28]
     ],
     # Ciudad 2
     [
@@ -47,6 +48,8 @@ city_data = [
         [19, 21, 23, 20, 22, 24, 21],
         # Semana 3
         [20, 22, 24, 21, 23, 25, 22]
+           # Semana 4
+        [21, 23, 25, 22, 24, 26, 23]
     ],
     # Ciudad 3
     [
@@ -56,6 +59,8 @@ city_data = [
         [17, 19, 21, 18, 20, 22, 19],
         # Semana 3
         [18, 20, 22, 19, 21, 23, 20]
+        # Semana 4
+        [19, 21, 23, 20, 22, 24, 21]
     ]
 ]
 
