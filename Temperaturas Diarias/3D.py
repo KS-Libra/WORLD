@@ -8,6 +8,8 @@ temperaturas = [
         [21, 23, 25, 22, 24, 26, 23],
         # Semana 3
         [22, 24, 26, 23, 25, 27, 24]
+           # Semana 4
+        [23, 25, 27, 24, 26, 27, 28]
     ],
     # Ciudad 2
     [
@@ -17,6 +19,8 @@ temperaturas = [
         [19, 21, 23, 20, 22, 24, 21],
         # Semana 3
         [20, 22, 24, 21, 23, 25, 22]
+           # Semana 4
+        [21, 23, 25, 22, 24, 26, 23]
     ],
     # Ciudad 3
     [
@@ -26,6 +30,8 @@ temperaturas = [
         [17, 19, 21, 18, 20, 22, 19],
         # Semana 3
         [18, 20, 22, 19, 21, 23, 20]
+        # Semana 4
+        [19, 21, 23, 20, 22, 24, 21]
     ]
 ]
 
@@ -38,4 +44,4 @@ for ciudad in range(len(temperaturas)):
             total_temperatura += temperaturas[ciudad][semana][dia]
         promedio_temperatura = total_temperatura / len(temperaturas[ciudad][semana])
         print(f"Semana {semana + 1}: {promedio_temperatura:.2f}°C")
-    print()
+    print()   
